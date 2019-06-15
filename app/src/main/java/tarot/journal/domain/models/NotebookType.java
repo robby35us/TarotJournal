@@ -1,4 +1,4 @@
-package tarot.journal.entities;
+package tarot.journal.domain.models;
 
 public enum NotebookType {
     BASIC

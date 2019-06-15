@@ -1,9 +1,11 @@
-package tarot.journal.entities.boundary;
+package tarot.journal.domain.gateway;
 
 import org.junit.Before;
 import org.junit.Test;
 
-import tarot.journal.entities.NotebookType;
+import tarot.journal.domain.boundary.CreateNotebook;
+import tarot.journal.domain.gateway.NotebookAccessGateway;
+import tarot.journal.domain.models.NotebookType;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;

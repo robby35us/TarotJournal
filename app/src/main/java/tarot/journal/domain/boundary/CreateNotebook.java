@@ -1,8 +1,7 @@
-package tarot.journal.entities.boundary;
+package tarot.journal.domain.boundary;
 
-import tarot.journal.entities.Notebook;
-import tarot.journal.entities.NotebookDetails;
-import tarot.journal.entities.NotebookType;
+import tarot.journal.domain.models.NotebookDetails;
+import tarot.journal.domain.models.NotebookType;
 
 public interface CreateNotebook {
     class RequestData {

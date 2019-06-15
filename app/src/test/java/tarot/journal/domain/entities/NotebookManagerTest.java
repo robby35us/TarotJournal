@@ -1,7 +1,10 @@
-package tarot.journal.entities;
+package tarot.journal.domain.entities;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import tarot.journal.domain.entities.NotebookManager;
+import tarot.journal.domain.models.NotebookType;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
